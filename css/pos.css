@@ -1,0 +1,90 @@
+head, body {
+	font-family: sans-serif;}
+
+nav>ul {
+list-style-type: none; }
+nav {
+position: relative;
+display: inline }
+
+
+/* ul, menu, dir, nav, head, body, tr,td,th,p,div {
+	font-family: sans-serif;
+	list-style-type: none;
+}
+*/
+ 
+.thebody {
+	background: blue;
+	height: 50px;
+	width: 50px;
+	border: 1px solid gray;
+}
+
+.wrapper {
+	background: yellow;
+	height: 200px;
+	width: 200px;
+	z-index:1
+}
+
+.box1 {
+	background: black;
+	left: 10px;
+	height: 40px;
+	width: 100px;
+}
+
+.box2 {
+	background: red;
+	left: 10px;
+	height: 30px;
+	width: 270px;
+}
+
+.box3 {
+	background: purple;
+	left: 10px;
+	height: 40px;
+	width: 190px;
+	z-index:20;
+}
+
+.wrapper2 {
+	background: orange;
+	left: 10px;
+	height: 100px;
+	width: 100px;
+	border: 1px solid gray;
+}
+.box4 {
+	background: gray;
+	left: 10px;
+	height: 50px;
+	width: 150px;
+	border: 1px solid gray;
+}
+
+.wrapper3 {
+	background: pink;
+	left: 10px;
+	height: 100px;
+	width: 180px;
+	border: 1px solid gray;
+}
+.box5 {
+	background: green;
+	left: 10px;
+	height: 90px;
+	width: 130px;
+	border: 1px solid gray;
+}
+
+.box6 {
+	background: cyan;
+	left: 10px;
+	height: 90px;
+	width: 170px;
+	border: 1px solid gray;
+}
+

@@ -11,11 +11,55 @@
   <link rel="shortcut icon" type="image/png" href="/favicon.png?">
 
 
-  <title>Llama</title>
+  <title>Static</title>
     <link href="css/pos.css" rel="stylesheet" />
 </head>
 
 <body>
+<nav class="mynav" > 
+<ul>
+<li><a href="index.html">Static</a></li>
+<li><a href="absolute.html">Absolute</a></li>
+<li><a href="Relative.html">Relative</a></li>
+</ul>
+</nav>
+
+
+<div class="thebody"> <p> doesn't</p>move some stuff <p>down</p></div>
+<div class="wrapper"> in yellow, pushes black, red, and purple 
+	<div class="box1"> box1</div>
+	<div class="box2"> </div>
+	<div class="box3">  </div>
+
+</div>
+<div class="wrapper2"> push gray box down, really far down, totally behind pink box
+<p>maybe even</p>
+<p> past the end</p>
+<p> of the pink</p>
+<p> box</p>
+<p> altogether</p>
+	<div class="box4">  push </div>
+</div>
+<div class="wrapper3"> phsh
+	<div class="box5"> and overlap with contents of orange div</div>
+	<div class="box6"> </div>
+</div>
+<div class="lesson">All of the boxes on this page have default (static) positioning. 
+<ul>
+	<li>The blue box is part of the body, as is the nav bar.</li>
+	<li>wrapper is yellow and holds 3 boxes (black, red, purple)</li>
+	<li>wrapper2 is orange and holds the gray box</li>
+	<li>wrapper3 is pink and holds the green and cyan boxes</li>
+	<li> text added to nav pushes down ALL boxes</li>
+	<li> text added to blue box is stuck in there and doesn't move other boxes, although the information might flow down into it. the text is only as wide as that box</li>
+	<li> if we add text to yellow box(wrapper), it pushes down the black red and purple boxes and these boxes stay behind other objects in subsequent divs</li>
+	<li> adding text to wrapper2(orange) pushes down gray box as it lives in wrapper 2. Enough text will push the gray box behind the pink box and its contents.</li>
+	<li>adding text to pink box(wrapper3) will push down green and cyan boxes that are its children</li>
+	<li> orange (w2) starts where yellow (w1) ends</li>
+	<li> enough content in level 1/wrappers will push children down and outside</li>
+	<li> it's possible for content in a level1/wrapper to push down past the next sibling and interfere with content of siblings and niblings.</li>
+	</ul>
+<p>I learned that text in a box can push other items down.<p></p></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </body>
 
